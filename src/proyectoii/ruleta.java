@@ -19,5 +19,16 @@ public class ruleta {
         turn = new Random();
     }
     
+    public boolean addTurn(String turn){
+        if(turno.size()<6){
+            this.turno.add(turn);
+            return true;
+        }
+        return false;
+    }
     
+    public int getRuleta(){
+        int i = (turno.isEmpty()==true)? 0 : 1;//turno.size();
+        return i;//(int)(turn.nextDouble() * this.turno.size()+1);
+    }
 }

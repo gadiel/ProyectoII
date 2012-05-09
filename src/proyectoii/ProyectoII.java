@@ -15,5 +15,10 @@ public class ProyectoII {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ruleta rnd = new ruleta();
+        
+        for(int i=0;i<10;i++){
+            System.out.println(rnd.getRuleta());
+        }
     }
 }
