@@ -5,12 +5,19 @@
 package proyectoii;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  *
  * @author JoXhe
  */
 public class ruleta {
-    ArrayList <String> turno = new turno<String>;
+    private ArrayList<String> turno;
+    private Random turn;
+    
+    public ruleta(){
+        turn = new Random();
+    }
+    
     
 }
